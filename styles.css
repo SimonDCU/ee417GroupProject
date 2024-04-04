@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +20,35 @@ header {
     color: white;
     padding: 10px 20px;
 }
+
+.login {
+    width: 100%;
+    max-width: 80px;
+    color: white;
+    text-decoration: none; /* removes underline */
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 10px; /* Add margin to the left of the buttons */
+    border: 2px solid red; /* adds red border to buttons */
+    border-radius: 5px; /* rounds off buttons corners*/
+}
+
+.login:hover {
+    background-color: #333; /* hovering buttons makes the background change to grey */
+}
+
+
+.menu-container {
+    width: 100%; /* Adjust the width of the menu container */
+    max-width: 80px;
+}
+
+.menu-toggle {
+    /* top:30px;
+    bottom:30px; */
+    cursor: pointer;
+}
+
 
 nav {
     height: 100%; /* 100% Full-height */   
@@ -64,15 +94,14 @@ nav .closebtn {
     font-size: 36px;
   }
 
-.menu-container {
-    width: 250px; /* Adjust the width of the menu container */
-}
 
-.menu-toggle {
-    /* top:30px;
-    bottom:30px; */
-    cursor: pointer;
-}
+
+
+
+
+
+
+
 
 .bar {
     width: 25px;
@@ -96,20 +125,4 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.login {
-    width: 250px;
-}
 
-.login a {
-    color: white;
-    text-decoration: none; /* removes underline */
-    padding: 5px 10px;
-    text-align: center;
-    margin-left: 10px; /* Add margin to the left of the buttons */
-    border: 2px solid red; /* adds red border to buttons */
-    border-radius: 5px; /* rounds off buttons corners*/
-}
-
-.login a:hover {
-    background-color: #333; /* hovering buttons makes the background change to grey */
-}
