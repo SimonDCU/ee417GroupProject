@@ -18,7 +18,7 @@ header {
     align-items: center;
     background-color: #11ff00;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 .login {
@@ -28,13 +28,12 @@ header {
     text-decoration: none; /* removes underline */
     padding: 5px 10px;
     text-align: center;
-    margin-left: 10px; /* Add margin to the left of the buttons */
     border: 2px solid white; /* adds red border to buttons */
     border-radius: 5px; /* rounds off buttons corners*/
 }
 
 .login:hover {
-    background-color: white; /* hovering buttons makes the background change to grey */
+    background-color: #dedede; /* hovering buttons makes the background change to grey */
 }
 
 
