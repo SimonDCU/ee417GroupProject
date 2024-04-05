@@ -110,12 +110,15 @@ nav .closebtn {
     transition: transform 0.3s, opacity 0.3s;
 }
 
-main {
+.main-content {
     flex: 1;
     padding: 20px;
     background: #dedede;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+
 }
 
 section {
@@ -124,4 +127,9 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.rooms-available, .rooms-occupied {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 40px;
+}
 
