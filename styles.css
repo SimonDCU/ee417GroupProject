@@ -37,6 +37,23 @@ header {
 }
 
 
+.user-info-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-content {
+    display: flex;
+    padding: 8px;
+}
+
+.user-info-name, .user-info-role {
+    padding-left: 4px
+}
+
+
+
 .menu-container {
     width: 100%; /* Adjust the width of the menu container */
     max-width: 80px;
@@ -47,6 +64,10 @@ header {
     bottom:30px; */
     cursor: pointer;
 }
+
+
+
+
 
 
 nav {
