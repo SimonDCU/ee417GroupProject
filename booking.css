@@ -28,3 +28,21 @@
     padding: 10px; /* Add some padding for each list item */
     border-bottom: 1px solid #eee; /* Optional separator for each room */
 }
+
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 1000; /* Make sure it's above other elements */
+  }
+  
+  .calendar .day.available {
+    background-color: green;
+  }
+  
+  .calendar .day.unavailable {
+    background-color: red;
+  }
